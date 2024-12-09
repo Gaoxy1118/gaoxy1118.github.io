@@ -318,7 +318,7 @@ scholar:
   first_name: [Xinyuan]
 
   style: apa
-  locale: en
+  locale: zh-CN
 
   source: /_bibliography/
   bibliography: papers.bib
