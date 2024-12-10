@@ -711,7 +711,17 @@ footer.sticky-bottom {
             }
           }
         }
+  .energy abbr {
+    background-color: #FF5733; /* Energy 背景色，红色系 */
+  }
 
+  .Energy-Fuels abbr {
+    background-color: #33AFFF; /* Applied Energy 背景色，蓝色系 */
+  }
+
+  .fuel abbr {
+    background-color: #32CD32; /* Fuel 背景色，绿色系 */
+  }
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
