@@ -1,13 +1,12 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
 
 "Energy":
-  url: https://aapt.scitation.org/journal/ajp
+  url: https://www.sciencedirect.com/journal/energy
   color: "#EC6034"
+  
+"IJHMT":
+  url: https://www.sciencedirect.com/journal/international-journal-of-heat-and-mass-transfer
+  color: "#CD3631"
+
+"Energy Fuels":
+  url: https://pubs.acs.org/journal/enfuem
+  color: "#1C448A"
