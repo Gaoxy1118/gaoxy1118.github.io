@@ -751,7 +751,7 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
-          color: var(black-color);
+          color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
@@ -760,7 +760,7 @@ footer.sticky-bottom {
           margin-left: 0;
 
           &:hover {
-            color: var(--global-theme-color);
+            color: var(--global-text-color);
             border-color: var(--global-theme-color);
           }
         }
