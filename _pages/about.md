@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: <a href='#'>Affiliations</a>. PhD student | Petroleum and Natural Gas Engineering | China University of Petroleum (Beijing)
 profile:
   align: right
   image: prof_pic.jpg
