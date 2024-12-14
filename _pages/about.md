@@ -15,4 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-PhD student | Petroleum and Natural Gas Engineering | China University of Petroleum (Beijing)
+Primary interests:
+CO_2-EOR/EGR
+Hydrogen geological storage
+Geothermal
