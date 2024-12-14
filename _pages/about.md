@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. PhD student | Petroleum and Natural Gas Engineering | China University of Petroleum (Beijing)
+subtitle: PhD student | Petroleum and Natural Gas Engineering | <a href='https://www.cup.edu.cn/'>China University of Petroleum (Beijing)</a>.
 profile:
   align: right
   image: prof_pic.jpg
