@@ -13,10 +13,10 @@ profile:
 
 ---
 
-Primary interests:;
+__Primary interests:__
 
-CO_2-EOR/EGR;
+CO_2-EOR/EGR
 
-Hydrogen geological storage;
+Hydrogen geological storage
 
-Geothermal;
+Geothermal
