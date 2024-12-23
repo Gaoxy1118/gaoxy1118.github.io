@@ -15,11 +15,11 @@ profile:
 
 __Primary interests:__
 
-·CO<sub>2</sub>-EOR/EGR
+- CO<sub>2</sub>-EOR/EGR
 
-·Hydrogen geological storage
+- Hydrogen geological storage
 
-·Geothermal
+- Geothermal
 
-·Multi-field coupled modeling
+- Multi-field coupled modeling
 
