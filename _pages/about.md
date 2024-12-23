@@ -21,3 +21,5 @@ __Primary interests:__
 
 ·Geothermal
 
+·Multi-field coupled modeling
+
