@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: 个人简介
 permalink: /
 subtitle: PhD student | Petroleum and Natural Gas Engineering | <a href='https://www.cup.edu.cn/'>China University of Petroleum (Beijing)</a>.
 profile:
