@@ -1,0 +1,80 @@
+{{ $title := .Get "title" }}
+{{ $year := .Get "year" }}
+{{ $type := .Get "type" | default "paper" }}
+{{ $tags := .Get "tags" }}
+{{ $search := .Get "search" }}
+{{ $authors := .Get "authors" }}
+{{ $venue := .Get "venue" }}
+{{ $award := .Get "award" }}
+{{ $meta := .Get "meta" }}
+{{ $venueStyle := .Get "venueStyle" }}
+{{ $bibtexId := .Get "bibtexId" }}
+{{/* 这里修改为获取 bibtexContent */}}
+{{ $bibtex := .Get "bibtexContent" }}
+
+<article class="pub-card" 
+         data-year="{{ $year }}" 
+         data-type="{{ $type }}" 
+         data-tags="{{ $tags }}" 
+         data-search="{{ $search | lower }}"
+         data-authors="{{ $authors | lower }}"
+         data-venue="{{ $venue | lower }}"
+         data-title="{{ $title | lower }}">
+    
+    <!-- 卡片头部 -->
+    <div class="pub-header">
+        <h3 class="pub-title">{{ $title | safeHTML }}</h3>
+        <div class="pub-type-tag">
+            {{ if $venueStyle }}
+                <span class="meta-tag" style="{{ $venueStyle | safeCSS }}">{{ $venue | safeHTML }}</span>
+            {{ else }}
+                <span class="meta-tag">{{ $type | upper }}</span>
+            {{ end }}
+        </div>
+    </div>
+    
+    <!-- 奖项（如果有） -->
+    {{ if $award }}
+    <div class="award-badge">
+        <i class="fas fa-trophy"></i> {{ $award }}
+    </div>
+    {{ end }}
+
+    <!-- 作者信息 -->
+    <div class="pub-authors">
+        {{ $authors | safeHTML }}
+    </div>
+
+    <!-- 发表场所 -->
+    <div class="pub-venue">
+        {{ $venue | safeHTML }}
+    </div>
+    
+    <!-- 元数据 -->
+    {{ if $meta }}
+    <div class="pub-meta">
+        {{ $meta | safeHTML }}
+    </div>
+    {{ end }}
+
+    <!-- 按钮区域 -->
+    <div class="pub-actions">
+        {{ .Inner | safeHTML }}
+    </div>
+
+    <!-- BibTeX（如果有） -->
+    {{ if $bibtex }}
+    {{/* 添加 style="display: none;" 默认隐藏，配合 toggleBibtex JS函数使用 */}}
+    <div id="{{ $bibtexId }}" class="bibtex-container" style="display: none;">
+        <div class="code-header">
+            <span class="bibtex-label">BibTeX</span>
+            <button class="copy-btn" onclick="copyBibtex('{{ $bibtexId }}')">
+                <i class="fas fa-copy"></i> Copy
+            </button>
+        </div>
+        <!-- 使用 safeHTML 确保内容正确输出，或者直接输出 -->
+        <pre class="code-content">{{ $bibtex | safeHTML }}</pre>
+        <div class="copy-feedback">Copied to clipboard!</div>
+    </div>
+    {{ end }}
+</article>

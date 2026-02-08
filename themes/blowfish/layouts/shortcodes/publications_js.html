@@ -1,0 +1,149 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.pub-card');
+    const visibleCountEl = document.getElementById('visibleCount');
+    const pubList = document.getElementById('publicationList');
+    
+    if (!searchInput || cards.length === 0) return;
+    
+    let activeFilter = 'all';
+    let searchQuery = '';
+    
+    // 创建空状态元素
+    let noResultsEl = document.createElement('div');
+    noResultsEl.className = 'no-results';
+    noResultsEl.innerHTML = `
+        <i class="fas fa-search"></i>
+        <h3>No publications found</h3>
+        <p>Try adjusting your search or filter</p>
+    `;
+    pubList.appendChild(noResultsEl);
+    
+    // 搜索功能
+    searchInput.addEventListener('input', function(e) {
+        searchQuery = e.target.value.toLowerCase().trim();
+        filterPublications();
+    });
+    
+    // 筛选功能
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            activeFilter = this.getAttribute('data-filter');
+            filterPublications();
+        });
+    });
+    
+    // 综合筛选函数
+    function filterPublications() {
+        let visibleCount = 0;
+        
+        cards.forEach(card => {
+            const year = card.getAttribute('data-year');
+            const type = card.getAttribute('data-type');
+            const tags = card.getAttribute('data-tags') || '';
+            const authors = card.getAttribute('data-authors') || '';
+            const venue = card.getAttribute('data-venue') || '';
+            const title = card.getAttribute('data-title') || '';
+            const searchData = card.getAttribute('data-search') || '';
+            
+            // 检查筛选条件
+            let matchesFilter = false;
+            if (activeFilter === 'all') {
+                matchesFilter = true;
+            } else if (activeFilter === 'selected') {
+                matchesFilter = tags.includes('selected');
+            } else if (activeFilter === year) {
+                matchesFilter = true;
+            } else if (activeFilter === type) {
+                matchesFilter = true;
+            } else {
+                matchesFilter = tags.includes(activeFilter);
+            }
+            
+            // 检查搜索条件
+            let matchesSearch = true;
+            if (searchQuery) {
+                const combinedText = [
+                    title,
+                    authors,
+                    venue,
+                    searchData,
+                    card.querySelector('.pub-authors')?.textContent || '',
+                    card.querySelector('.pub-venue')?.textContent || ''
+                ].join(' ').toLowerCase();
+                
+                matchesSearch = combinedText.includes(searchQuery);
+            }
+            
+            // 显示/隐藏卡片
+            if (matchesFilter && matchesSearch) {
+                card.style.display = 'block';
+                card.classList.remove('hidden');
+                visibleCount++;
+            } else {
+                card.style.display = 'none';
+                card.classList.add('hidden');
+            }
+        });
+        
+        // 更新计数
+        if (visibleCountEl) {
+            visibleCountEl.textContent = visibleCount;
+        }
+        
+        // 显示/隐藏空状态
+        if (visibleCount === 0) {
+            noResultsEl.classList.add('show');
+        } else {
+            noResultsEl.classList.remove('show');
+        }
+        
+        console.log('Filter applied:', {
+            activeFilter,
+            searchQuery,
+            visibleCount,
+            totalCards: cards.length
+        });
+    }
+    
+    // 初始化
+    filterPublications();
+});
+
+// BibTeX 复制功能
+window.copyBibtex = function(id) {
+    const container = document.getElementById(id);
+    if (!container) return;
+    
+    const code = container.querySelector('.code-content').textContent;
+    const feedback = container.querySelector('.copy-feedback');
+    
+    navigator.clipboard.writeText(code).then(() => {
+        feedback.style.display = 'block';
+        setTimeout(() => {
+            feedback.style.display = 'none';
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy:', err);
+        alert('Failed to copy to clipboard. Please select and copy manually.');
+    });
+}
+
+// BibTeX 切换显示
+window.toggleBibtex = function(id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    
+    if (el.classList.contains('show')) {
+        el.classList.remove('show');
+        setTimeout(() => el.style.display = 'none', 300);
+    } else {
+        el.style.display = 'block';
+        setTimeout(() => el.classList.add('show'), 10);
+    }
+}
+</script>

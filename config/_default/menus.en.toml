@@ -1,0 +1,39 @@
+[[main]]
+name = "About me"
+pageRef = "aboutme"
+weight = 10
+
+[[main]]
+name = "Research"
+pageRef = "research"
+weight = 20
+
+[[main]]
+name = "Computational Imaging"
+parent = "Research"
+pageRef = "/research/computational-imaging"
+weight = 21
+
+[[main]]
+name = "Neuromodulation"
+parent = "Research"
+pageRef = "/research/all-optical-neuromodulation"
+weight = 22
+
+[[main]]
+name = "AI‑assisted Medical Analysis & Diagnostics"
+parent = "Research"
+pageRef = "/research/medical-imaging"
+weight = 23
+
+[[main]]
+name = "Publication"
+pageRef = "publication"
+weight = 30
+
+[[main]]
+name = "Contact"
+pageRef = "contact"
+weight = 40
+
+
