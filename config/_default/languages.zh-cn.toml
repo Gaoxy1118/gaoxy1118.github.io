@@ -1,11 +1,11 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "zh-cn"
+languageName = "Simplified Chinese (China)"
 weight = 1
 title = "Yuanjie's Home"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "中文"
+  isoCode = "zh-cn"
   rtl = false
   logo = "img/IMG_202512162268_50x50.png"
   description = "My awesome website"
@@ -13,10 +13,10 @@ title = "Yuanjie's Home"
   dateFormat = "2 January 2026"
 
 [params.author]
-  name = "Yuanjie Gu"
+  name = "高鑫远 副教授"
   image = "/img/avatar.png"
-  headline = "Fudan University"
-  bio = "Yuanjie Gu is a Ph.D. Candidate at Fudan University, undertaking his research in conjunction with his role as Chief Technology Officer at Healin Tech Co., Ltd."
+  headline = "东北大学 海洋工程研究院"
+  bio = " is a Ph.D. Candidate    aYuanjie Gut Fudan University, undertaking his research in conjunction with his role as Chief Technology Officer at Healin Tech Co., Ltd."
    links = [
      { google = "https://scholar.google.com/citations?user=DN4ZT7YAAAAJ&hl=zh-CN" },
      { github = "https://github.com/guyuanjie" },

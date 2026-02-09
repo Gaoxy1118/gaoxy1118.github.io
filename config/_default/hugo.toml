@@ -3,7 +3,7 @@
 
 theme = "blowfish"
 baseURL = ""
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 
 enableRobotsTXT = true
 pagination.pagerSize = 20
