@@ -39,16 +39,13 @@ fullWidth: true
         tags="ai,denoising"
         search="self-supervised denoising"
         authors="<span class='author-me'>高鑫远</span>, 杨胜来*, 位云生, 闫海军, 彭先, 李隆新, 赵梓寒, 姜艺, 王梦雨, 刘晓旭"
-        venue="中国石油大学学报(自然科学版)"
         meta="<span><i class='fas fa-calendar'></i> 2026</span><span><i class='fas fa-book'></i> 中国石油大学学报(自然科学版)</span><span><i class='fas fa-star'></i> IF: 3.2</span><span><i class='fas fa-quote-right'></i> Citations: 0</span>"
         bibtexId="bib202601"
         bibtexKey="gu2026thz"
-        bibtexContent="@article{gu2026thz, title={Data-efficient self-supervised 3DCNN for real-time terahertz image denoising and enhancement}, author={Li, Xinhua and Li, Xiaoran and Gu, Yuanjie and Qian, Xinyan and Sun, Jiandong and Dong, Biqin and Zheng, Xiaoping}, journal={Optics and Laser Technology}, volume={196}, pages={114656}, year={2026}}"
+        bibtexContent="@article{gao2023influence,title={Influence of reservoir spatial heterogeneity on a multicoupling process of CO2 geological storage},author={Gao, Xinyuan and Yang, Shenglai and Shen, Bin and Tian, Lerao and Li, Shuai and Zhang, Xing and Wang, Jiatong},journal={Energy \& Fuels},volume={37},number={19},pages={14991--15005},year={2023},publisher={ACS Publications}}"
     >}}
         <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
-        <a href="#" class="btn-action"><i class="fab fa-github"></i> Code</a>
         <button class="btn-action" onclick="toggleBibtex('bib202601')"><i class="fas fa-quote-right"></i> BibTeX</button>
-        <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
     {{< /publication_item >}}
     <!-- ================================================================================== -->
     <!-- 2025 Papers -->
@@ -63,7 +60,7 @@ fullWidth: true
         authors="<span class='author-me'>Xinyuan Gao</span>*, Shenglai Yang, Beidong Wang, Yiqi Zhang*, Jiangtao Hu, Mengyu Wang, Bin Shen*, Ermeng Zhao"
         venue="Energy"
         venueStyle="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i>Energy</span><span><i class='fas fa-star'></i> IF: 9.4</span><span><i class='fas fa-info-circle'></i> Citations: 33</span>"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i>Energy</span><span><i class='fas fa-star'></i> IF: 9.4</span><span><i class='fas fa-quote-right'></i> Citations: 33</span>"
         bibtexId="bib1"
         bibtexKey="gu2025enhancing"
         bibtexContent="@article{gu2025enhancing, title={Enhancing Biomedical Optical Volumetric Imaging via Self-Supervised Orthogonal Learning}, author={Gu, Yuanjie and Wang, Yiqun and Xuan, Ang and Wang, Jianping and Wang, Linyi and Zhang, Lei and Li, Xiaoran and Wu, Yao and Zhang, Jun and Lu, Zhi and Dong, Biqin}, journal={Science Advances}, year={2025}}"
@@ -74,15 +71,16 @@ fullWidth: true
         <a href="https://www.biorxiv.org/content/10.1101/2025.05.16.654259v1" class="btn-action"><i class="fas fa-external-link-alt"></i> bioRxiv</a>
     {{< /publication_item >}}
     {{< publication_item
-        title="Real-time Self-supervised Denoising for High-speed Fluorescence Neural Imaging"
+        title="Wellbore-reservoir and multiphysics coupling model for liquid CO<sub>2</sub> cyclic injection in a CCUS-EGR framework"
         year="2025"
         type="journal"
         tags="ai,neuroscience,selected"
+        award="连续两期ESI高被引论文"
         search="real-time self-supervised denoising neural imaging"
-        authors="Yiqun Wang#, <span class='author-me'>Yuanjie Gu</span>#, Jianping Wang, Ang Xuan, Cihang Kong, Wei-Qun Fang, Dongyu Li, Dan Zhu, Fengfei Ding*, Biqin Dong*"
-        venue="Nature Communications"
+        authors="<span class='author-me'>Xinyuan Gao</span>, Shenglai Yang, Beidong Wang, Yiqi Zhang, Jiangtao Hu, Mengyu Wang, Bin Shen, Ermeng Zhao, Zhenhua Rui*"
+        venue="Journal of Hydrology"
         venueStyle="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Nat. Commun.</span><span><i class='fas fa-star'></i> IF: ~14.7</span><span><i class='fas fa-quote-right'></i> Citations: TBD</span>"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i>J. Hydrol.</span><span><i class='fas fa-star'></i> IF:6.3</span><span><i class='fas fa-quote-right'></i> Citations:26</span>"
         bibtexId="bib2"
         bibtexKey="wang2025realtime"
         bibtexContent="@article{wang2025realtime, title={Real-time Self-supervised Denoising for High-speed Fluorescence Neural Imaging}, author={Wang, Yiqun and Gu, Yuanjie and Wang, Jianping and Xuan, Ang and Kong, Cihang and Fang, Wei-Qun and Li, Dongyu and Zhu, Dan and Ding, Fengfei and Dong, Biqin}, journal={Nature Communications}, volume={16}, pages={9396}, year={2025}}"
