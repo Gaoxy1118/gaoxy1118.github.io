@@ -14,17 +14,17 @@ fullWidth: true
 
 <!-- 统计栏 (数据需根据实际情况微调) -->
 {{< publications_stats 
-    total="17" 
+    total="30" 
     first="15" 
-    impact="100+" 
-    citations="400+" 
+    impact="167.3" 
+    citations="473" 
 >}}
 
 <!-- 搜索和筛选 -->
 {{< publications_search >}}
 
 
-> "#" Marked contributions are equally, "*" marked as corresponding author
+> "*" 代表通讯作者
 
 
 <!-- 论文列表 -->
@@ -68,7 +68,7 @@ fullWidth: true
         bibtexKey="gu2025enhancing"
         bibtexContent="@article{gu2025enhancing, title={Enhancing Biomedical Optical Volumetric Imaging via Self-Supervised Orthogonal Learning}, author={Gu, Yuanjie and Wang, Yiqun and Xuan, Ang and Wang, Jianping and Wang, Linyi and Zhang, Lei and Li, Xiaoran and Wu, Yao and Zhang, Jun and Lu, Zhi and Dong, Biqin}, journal={Science Advances}, year={2025}}"
     >}}
-        <a href="https://raw.githubusercontent.com/Gaoxy1118/gaoxy1118.github.io/main/assets/pdf/4Energy.pdf" download class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+        <a href="https://gaoxy1118.github.io/assets/pdf/4Energy.pdf" download class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
         <a href="#" class="btn-action"><i class="fab fa-github"></i> Code</a>
         <button class="btn-action" onclick="toggleBibtex('bib1')"><i class="fas fa-quote-right"></i> BibTeX</button>
         <a href="https://www.biorxiv.org/content/10.1101/2025.05.16.654259v1" class="btn-action"><i class="fas fa-external-link-alt"></i> bioRxiv</a>

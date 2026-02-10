@@ -1,20 +1,20 @@
 ---
-title: "Contact"
+title: "联系我"
 description: "Get in touch for research, collaboration, or media inquiries."
 layout: "simple"
 showTableOfContents: false
 ---
 
 {{< lead >}}
-Get in touch — whether it’s research collaboration, project work, internships, or a quick hello. I typically reply within **24 hours** on business days.
-Your information will only be used to respond to this inquiry and will not be published or used for other purposes.
+无论是研究合作、项目工作、实习机会，还是简单问候。我通常会在工作日的**24小时内**回复。
+
+您的信息仅用于回复本次咨询，不会公开或用于其他用途。
 {{< /lead >}}
 
 ---
 
-### FAQ
-- Q: When will I get a reply?  
-  A: Typically within 24 hours on business days.
+### 联系方式
+- Email：gaoxy_cup@163.com
 
 
 

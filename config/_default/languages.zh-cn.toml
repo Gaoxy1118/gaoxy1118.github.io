@@ -1,7 +1,7 @@
 languageCode = "zh-cn"
 languageName = "Simplified Chinese (China)"
 weight = 1
-title = "Yuanjie's Home"
+title = "高鑫远-主页"
 
 [params]
   displayName = "中文"
@@ -13,14 +13,13 @@ title = "Yuanjie's Home"
   dateFormat = "2 January 2026"
 
 [params.author]
-  name = "高鑫远"
+  name = "高鑫远 副教授"
   image = "/img/avatar.png"
-  headline = "东北大学"
-  bio = "副教授，东北大学海洋工程研究院"
+  headline = "东北大学 海洋工程研究院"
+  bio = "东北大学海洋工程研究院成立于2023年，是东北大学在百年校庆之际，为积极响应国家海洋强国战略发展需求，推动海洋科技实现高水平自立自强，助推海洋经济向质量效益型转变设立的研究机构。研究院落户秦皇岛分校，依托办学区位特点，充分发挥高校人才培养和科学研究的优势，为海洋强国战略贡献东北大学智慧的总体思路。"
    links = [
-     { google = "https://scholar.google.com/citations?user=DN4ZT7YAAAAJ&hl=zh-CN" },
-     { github = "https://github.com/guyuanjie" },
-     { orcid = "https://orcid.org/0000-0003-3099-8724" },
-     { researchgate = "https://www.researchgate.net/profile/username" },
-     { email = "mailto:yuanjie_gu@163.com" }
+     { google = "https://scholar.google.com/citations?user=Y_K9H_cAAAAJ&hl=zh-CN"},
+     { github = "https://github.com/Gaoxy1118" },
+     { orcid = "https://orcid.org/0009-0007-2831-3956" },
+     { email = "mailto:gaoxy_cup@163.com" }
    ]

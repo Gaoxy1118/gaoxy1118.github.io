@@ -32,7 +32,7 @@ pageRef = "publication"
 weight = 30
 
 [[main]]
-name = "Contact"
+name = "联系我"
 pageRef = "contact"
 weight = 40
 
