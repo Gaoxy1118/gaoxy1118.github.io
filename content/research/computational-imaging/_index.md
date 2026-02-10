@@ -1,5 +1,5 @@
 ---
-title: "Computational Imaging"
+title: "深海、深地能源工程"
 description: "Algorithms and learning-based methods to improve microscopy and biomedical imaging."
 layout: "simple"
 showTableOfContents: false

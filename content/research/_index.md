@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "研究领域"
 description: "Overview of research interests, projects and representative publications."
 layout: "simple"
 showTableOfContents: false
@@ -11,25 +11,25 @@ My research spans computational imaging, all‑optical closed‑loop neuromodula
 
 ---
 
-## 1. Computational Imaging
+## 1. 深海、深地能源工程
 
-Developing algorithms and learning-based methods to enhance microscopy and biomedical imaging — improving sensitivity, resolution, and robustness. Representative work includes self-supervised denoising and physically-aware reconstruction.
+CO2强化油气开采，H2/CO2/CH4地下储存，地热 
 
 [Read more →](/research/computational-imaging/)
 
 ---
 
-## 2. All‑optical Closed‑loop Neuromodulation
+## 2. 多尺度、多域、多场耦合建模与模拟
 
-Designing adaptive algorithms and system concepts for closed-loop all‑optical neuromodulation, integrating fast optical readouts with learned control policies. Projects include NSFC-funded work on intelligent closed-loop frameworks.
+复杂孔隙建模与模拟，大尺度系统多场耦合
 
 [Read more →](/research/all-optical-neuromodulation/)
 
 ---
 
-## 3. AI‑assisted Medical Imaging & Diagnostics
+## 3. AI赋能-耦合、预测与优化
 
-Developing AI pipelines that enhance clinical imaging and enable automated analysis for diagnosis. Key work includes unpaired learning for fundus enhancement and joint learning for skin lesion diagnosis.
+基于深度学习、因果发现、物理约束的预测和优化，智能多场耦合
 
 [Read more →](/research/medical-imaging/)
 

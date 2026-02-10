@@ -9,19 +9,19 @@ pageRef = "research"
 weight = 20
 
 [[main]]
-name = "Computational Imaging"
+name = "深海、深地能源工程"
 parent = "研究领域"
 pageRef = "/research/computational-imaging"
 weight = 21
 
 [[main]]
-name = "Neuromodulation"
+name = "多尺度、多域、多场耦合建模与模拟"
 parent = "研究领域"
 pageRef = "/research/all-optical-neuromodulation"
 weight = 22
 
 [[main]]
-name = "AI‑assisted Medical Analysis & Diagnostics"
+name = "AI赋能-耦合、预测与优化"
 parent = "研究领域"
 pageRef = "/research/medical-imaging"
 weight = 23

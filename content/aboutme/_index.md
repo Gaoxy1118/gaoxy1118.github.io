@@ -51,25 +51,34 @@ showReadingTime: false
 ---
 
 ### 🚀 研究兴趣
-- **Computational Imaging:** Generative foundation models for microscopy.
-- **Intelligent All-optical BCI:** Closed-loop all-optical neuro-modulation systems.
-- **Intelligent auxiliary diagnosis:** Diagnosis of diseases with AI-assisted image analysis.
+- **深海、深地能源工程:** CO2强化油气开采，H2/CO2/CH4地下储存，地热.
+- **多尺度、多域、多场耦合建模与模拟:** 复杂孔隙建模与模拟，大尺度系统多场耦合.
+- **AI赋能-耦合、预测与优化:** 基于深度学习、因果发现、物理约束的预测和优化，智能多场耦合.
 
 ---
 
 ### 🔬 科研项目
-- **Principal Investigator (PI)** | *2026 – 2028*  
-  **National Natural Science Foundation of China (NSFC)**: "Intelligent Frameworks for All-optical Closed-loop Neuromodulation".
-- **Project Backbone** | *2026 – 2027*  
-  **Alibaba DAMO Air Project**: "Generalizable Foundation Models for Biomedical Image Enhancement", joint initiative with Tsinghua University.
+- **主持** 
+
+  **国家级**, 中国科学技术协会, **首届中国科协青年人才托举工程博士生专项**
+- **参与**  
+
+  **国家级**, 自然科学基金委, 国家自然科学基金联合基金重点项目**海洋CO2地质封存体动态演化及强化封存机理**
+  
+  **国家级**, 科技部, 国家重点研发计划项目**CO2驱油与封存安全监测技术**
 
 ---
 
 ### 🔬 专利
-- **Principal Investigator (PI)** | *2026 – 2028*  
-  **National Natural Science Foundation of China (NSFC)**: "Intelligent Frameworks for All-optical Closed-loop Neuromodulation".
-- **Project Backbone** | *2026 – 2027*  
-  **Alibaba DAMO Air Project**: "Generalizable Foundation Models for Biomedical Image Enhancement", joint initiative with Tsinghua University.
+- **发明专利**
+
+  非常规油藏采收率提高方法及系统, 2025
+
+  一种超临界CO2一体化开发中低成熟页岩油装置, 2025
+
+  测定驱油泡沫体系在油藏中流变性变化的测量装置及方法, 2025
+
+  用于提高岩心利用率的装置、使用方法及其指导方法, 2025
 
 ---
 
