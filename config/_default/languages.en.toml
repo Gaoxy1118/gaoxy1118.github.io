@@ -13,10 +13,10 @@ title = "Xinyuan's home"
   dateFormat = "2 January 2026"
 
 [params.author]
-  name = "Xinyuan Gao, Associate Professor"
+  name = "Associate Professor, Xinyuan Gao"
   image = "/img/avatar.png"
-  headline = "东北大学 海洋工程研究院"
-  bio = "东北大学海洋工程研究院成立于百年校庆之际，位于秦皇岛分校，旨在响应国家海洋强国战略，推动海洋科技自立自强。"
+  headline = "Institute of Ocean Engineering, Northeastern University"
+  bio = "The Institute of Ocean Engineering at Northeastern University was established on the occasion of the university's centennial celebration. Located at the Qinhuangdao, it aims to respond to the national strategy of building a maritime power and promote self-reliance in marine science and technology."
    links = [
      { google = "https://scholar.google.com/citations?user=Y_K9H_cAAAAJ&hl=zh-CN"},
      { github = "https://github.com/Gaoxy1118" },
