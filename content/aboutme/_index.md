@@ -8,25 +8,28 @@ showReadingTime: false
 ---
 
 {{< typeit tag="h1" speed=40 >}}
-👋 Hello, I'm 高鑫远
+个人简介
 {{< /typeit >}}
 
 
 <div class="flex flex-wrap gap-3 justify-start mb-10">
-  <a href="#-education" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
+  <a href="#-教育和工作经历" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
     🎓 教育和工作经历
   </a>
-  <a href="#-research-interests" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
-    🚀 Research Interests
+  <a href="#-研究兴趣" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
+    🚀 研究兴趣
   </a>
-  <a href="#-research-projects" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
-    🔬 Research Projects
+  <a href="#-科研项目" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
+    🔬 科研项目
   </a>
-  <a href="#-honors" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
-    🏆 Honors
+  <a href="#-专利" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
+    🔬 专利
   </a>
-  <a href="#-professional-services" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
-    🛠 Professional Services
+  <a href="#-荣誉奖励" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
+    🏆 荣誉奖励
+  </a>
+  <a href="#-学术兼职" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
+    🛠 学术兼职
   </a>
 </div>
 
@@ -55,6 +58,14 @@ showReadingTime: false
 ---
 
 ### 🔬 科研项目
+- **Principal Investigator (PI)** | *2026 – 2028*  
+  **National Natural Science Foundation of China (NSFC)**: "Intelligent Frameworks for All-optical Closed-loop Neuromodulation".
+- **Project Backbone** | *2026 – 2027*  
+  **Alibaba DAMO Air Project**: "Generalizable Foundation Models for Biomedical Image Enhancement", joint initiative with Tsinghua University.
+
+---
+
+### 🔬 专利
 - **Principal Investigator (PI)** | *2026 – 2028*  
   **National Natural Science Foundation of China (NSFC)**: "Intelligent Frameworks for All-optical Closed-loop Neuromodulation".
 - **Project Backbone** | *2026 – 2027*  
