@@ -13,10 +13,10 @@ title = "Yuanjie's Home"
   dateFormat = "2 January 2026"
 
 [params.author]
-  name = "高鑫远 副教授"
+  name = "高鑫远"
   image = "/img/avatar.png"
-  headline = "东北大学 海洋工程研究院"
-  bio = " is a Ph.D. Candidate    aYuanjie Gut Fudan University, undertaking his research in conjunction with his role as Chief Technology Officer at Healin Tech Co., Ltd."
+  headline = "东北大学"
+  bio = "副教授，东北大学海洋工程研究院"
    links = [
      { google = "https://scholar.google.com/citations?user=DN4ZT7YAAAAJ&hl=zh-CN" },
      { github = "https://github.com/guyuanjie" },

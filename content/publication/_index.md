@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "发表论文"
 layout: "simple"
 fullWidth: true
 ---
@@ -15,9 +15,9 @@ fullWidth: true
 <!-- 统计栏 (数据需根据实际情况微调) -->
 {{< publications_stats 
     total="17" 
-    first="8" 
+    first="15" 
     impact="100+" 
-    citations="50+" 
+    citations="400+" 
 >}}
 
 <!-- 搜索和筛选 -->
@@ -33,14 +33,14 @@ fullWidth: true
     <!-- 2026 Papers -->
     <!-- ================================================================================== -->
     {{< publication_item
-        title="Data-efficient self-supervised 3DCNN for real-time terahertz image denoising and enhancement"
+        title="注CO<sub>2</sub>提高天然气采收率中CO<sub>2</sub>-CH<sub>4</sub>过渡带演化规律研究"
         year="2026"
         type="journal"
         tags="ai,denoising"
         search="self-supervised denoising"
-        authors="Xinhua Li, Xiaoran Li, <span class='author-me'>Yuanjie Gu</span>, Xinyan Qian, jiandong Sun, Biqin Dong* and Xiaoping Zheng*"
-        venue="Optics and Laser Technology"
-        meta="<span><i class='fas fa-calendar'></i> 2026</span><span><i class='fas fa-book'></i> Opt. Laser Technol.</span><span><i class='fas fa-star'></i> IF: ~5.1~</span><span><i class='fas fa-quote-right'></i> Citations: TBD</span>"
+        authors="<span class='author-me'>高鑫远</span>, 杨胜来*, 位云生, 闫海军, 彭先, 李隆新, 赵梓寒, 姜艺, 王梦雨, 刘晓旭"
+        venue="中国石油大学学报(自然科学版)"
+        meta="<span><i class='fas fa-calendar'></i> 2026</span><span><i class='fas fa-book'></i> 中国石油大学学报(自然科学版)</span><span><i class='fas fa-star'></i> IF: 3.2</span><span><i class='fas fa-quote-right'></i> Citations: 0</span>"
         bibtexId="bib202601"
         bibtexKey="gu2026thz"
         bibtexContent="@article{gu2026thz, title={Data-efficient self-supervised 3DCNN for real-time terahertz image denoising and enhancement}, author={Li, Xinhua and Li, Xiaoran and Gu, Yuanjie and Qian, Xinyan and Sun, Jiandong and Dong, Biqin and Zheng, Xiaoping}, journal={Optics and Laser Technology}, volume={196}, pages={114656}, year={2026}}"
@@ -54,20 +54,21 @@ fullWidth: true
     <!-- 2025 Papers -->
     <!-- ================================================================================== -->
     {{< publication_item
-        title="Enhancing Biomedical Optical Volumetric Imaging via Self-Supervised Orthogonal Learning"
+        title="Pore-scale modeling of multiple fluids flow transport kinetics for CO<sub>2</sub> enhanced gas recovery"
         year="2025"
         type="journal"
         tags="ai,imaging,selected"
+        award="连续四期ESI高被引论文"
         search="self-supervised biomedical optical imaging"
-        authors="<span class='author-me'>Yuanjie Gu</span>#, Yiqun Wang#, Ang Xuan, Jianping Wang, Linyi Wang, Lei Zhang, Xiaoran Li, Yao Wu, Jun Zhang, Zhi Lu*, Biqin Dong*"
-        venue="Science Advances"
+        authors="<span class='author-me'>Xinyuan Gao</span>*, Shenglai Yang, Beidong Wang, Yiqi Zhang*, Jiangtao Hu, Mengyu Wang, Bin Shen*, Ermeng Zhao"
+        venue="Energy"
         venueStyle="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Sci. Adv.</span><span><i class='fas fa-star'></i> IF: ~11.6</span><span><i class='fas fa-info-circle'></i> Minor Revision</span>"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i>Energy</span><span><i class='fas fa-star'></i> IF: 9.4</span><span><i class='fas fa-info-circle'></i> Citations: 33</span>"
         bibtexId="bib1"
         bibtexKey="gu2025enhancing"
         bibtexContent="@article{gu2025enhancing, title={Enhancing Biomedical Optical Volumetric Imaging via Self-Supervised Orthogonal Learning}, author={Gu, Yuanjie and Wang, Yiqun and Xuan, Ang and Wang, Jianping and Wang, Linyi and Zhang, Lei and Li, Xiaoran and Wu, Yao and Zhang, Jun and Lu, Zhi and Dong, Biqin}, journal={Science Advances}, year={2025}}"
     >}}
-        <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+        <a href="https://github.com/Gaoxy1118/gaoxy1118.github.io/assets/pdf/4Energy.pdf" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
         <a href="#" class="btn-action"><i class="fab fa-github"></i> Code</a>
         <button class="btn-action" onclick="toggleBibtex('bib1')"><i class="fas fa-quote-right"></i> BibTeX</button>
         <a href="https://www.biorxiv.org/content/10.1101/2025.05.16.654259v1" class="btn-action"><i class="fas fa-external-link-alt"></i> bioRxiv</a>

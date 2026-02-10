@@ -4,30 +4,30 @@ pageRef = "aboutme"
 weight = 10
 
 [[main]]
-name = "Research"
+name = "研究领域"
 pageRef = "research"
 weight = 20
 
 [[main]]
 name = "Computational Imaging"
-parent = "Research"
+parent = "研究领域"
 pageRef = "/research/computational-imaging"
 weight = 21
 
 [[main]]
 name = "Neuromodulation"
-parent = "Research"
+parent = "研究领域"
 pageRef = "/research/all-optical-neuromodulation"
 weight = 22
 
 [[main]]
 name = "AI‑assisted Medical Analysis & Diagnostics"
-parent = "Research"
+parent = "研究领域"
 pageRef = "/research/medical-imaging"
 weight = 23
 
 [[main]]
-name = "Publication"
+name = "发表论文"
 pageRef = "publication"
 weight = 30
 
