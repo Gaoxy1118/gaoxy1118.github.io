@@ -12,10 +12,16 @@ date: 2026-02-10
 - 受邀担任<a href="https://www.maxapress.com/een">*Energy & Environment Nexus*</a>青年编委 🎉
 ### 2025-11-13 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
 - 4篇论文入选2025年第6期ESI高被引论文(<a href="https://doi.org/10.1016/j.jhydrol.2025.133188">新入选论文</a>) 🎉🎉🎉
+### 2025-11-10 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
+- 受邀担任<a href="https://onlinelibrary.wiley.com/journal/27662098">*Exploration*</a>(IF=22.5)科学编委 🎉🎉🎉
 ### 2025-10-20 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
-- 受邀担任<a href="https://www.espublisher.com/journals/id/engineered-science">*Engineered Science*</a>(中科院1区TOP)高级青年编委 🎉
+- 受邀担任<a href="https://www.espublisher.com/journals/id/engineered-science">*Engineered Science*</a>(中科院1区TOP)高级青年编委 🎉🎉🎉
 ### 2025-09-11 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
 - 3篇论文入选2025年第5期ESI高被引论文 🎉🎉🎉
+### 2025-08-13 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
+- 受邀担任<a href="https://journals.plos.org/plosone/">*PLOS One*</a>(JCR Q2)学术编辑 🎉🎉🎉
+### 2025-08-13 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
+- 受邀担任<a href="https://www.mdpi.com/journal/eng/special_issues/B5881IF842">*Eng*</a>(JCR Q2)客座编辑 🎉🎉🎉
 ### 2025-07-21 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">论文发表</span>
 - <a href="https://doi.org/10.1016/j.gr.2025.06.025">论文</a>发表于地球科学顶刊*Gondwana Research* 🎉
 ### 2025-07-10 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
