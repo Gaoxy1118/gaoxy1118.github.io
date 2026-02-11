@@ -6,7 +6,7 @@ showTableOfContents: false
 ---
 
 {{< lead >}}
-My research spans computational imaging, all‑optical closed‑loop neuromodulation, and AI‑assisted medical diagnostics. Below are three main research fields I focus on; click through any to read projects and publications in detail.
+我的研究聚焦于深海与深地能源系统的多尺度多场耦合建模、智能预测与优化。以下为我重点开展的三个研究方向，点击可查看相关科研项目与代表性成果。
 {{< /lead >}}
 
 ---
@@ -15,7 +15,7 @@ My research spans computational imaging, all‑optical closed‑loop neuromodula
 
 CO2强化油气开采，H2/CO2/CH4地下储存，地热 
 
-[Read more →](/research/computational-imaging/)
+[更多内容 →](/research/computational-imaging/)
 
 ---
 
@@ -23,7 +23,7 @@ CO2强化油气开采，H2/CO2/CH4地下储存，地热
 
 复杂孔隙建模与模拟，大尺度系统多场耦合
 
-[Read more →](/research/all-optical-neuromodulation/)
+[更多内容 →](/research/all-optical-neuromodulation/)
 
 ---
 
@@ -31,9 +31,9 @@ CO2强化油气开采，H2/CO2/CH4地下储存，地热
 
 基于深度学习、因果发现、物理约束的预测和优化，智能多场耦合
 
-[Read more →](/research/medical-imaging/)
+[更多内容 →](/research/medical-imaging/)
 
 ---
 
-### Want more details? 🔬
-See the full list of publications on the Publications page or contact me for preprints, code, or dataset access.
+### 想了解更多细节？
+请访问“发表论文”页面查看完整的出版物列表，或联系我获取。

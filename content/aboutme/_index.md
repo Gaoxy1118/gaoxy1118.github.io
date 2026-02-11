@@ -17,24 +17,24 @@ showReadingTime: false
     🎓 教育和工作经历
   </a>
   <a href="#-研究兴趣" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
-    🚀 研究兴趣
+    🧠 研究兴趣
   </a>
   <a href="#-科研项目" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
     🔬 科研项目
   </a>
   <a href="#-专利" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
-    🔬 专利
+    📜 专利
   </a>
   <a href="#-荣誉奖励" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
     🏆 荣誉奖励
   </a>
   <a href="#-学术兼职" class="px-4 py-1.5 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-primary-100 dark:hover:bg-primary-900 text-neutral-700 dark:text-neutral-300 transition-colors text-sm font-medium no-underline">
-    🛠 学术兼职
+    📚 学术兼职
   </a>
 </div>
 
 {{< lead >}}
-**"Exploring the intersection of Intelligence and Vision to Biomedical Engineering."**
+**"聚焦深海、深地工程中的精确表征、模拟、预测及优化"**
 {{< /lead >}}
 
 
@@ -50,8 +50,8 @@ showReadingTime: false
 
 ---
 
-### 🚀 研究兴趣
-- **深海、深地能源工程:** CO2强化油气开采，H2/CO2/CH4地下储存，地热.
+### 🧠 研究兴趣
+- **深海、深地工程:** CO2强化油气开采，H2/CO2/CH4地下储存，地热.
 - **多尺度、多域、多场耦合建模与模拟:** 复杂孔隙建模与模拟，大尺度系统多场耦合.
 - **AI赋能-耦合、预测与优化:** 基于深度学习、因果发现、物理约束的预测和优化，智能多场耦合.
 
@@ -69,7 +69,7 @@ showReadingTime: false
 
 ---
 
-### 🔬 专利
+### 📜 专利
 - **发明专利**
 
   非常规油藏采收率提高方法及系统, 2025
@@ -91,7 +91,7 @@ showReadingTime: false
 
 ---
 
-### 🛠 学术兼职
+### 📚 学术兼职
 - **PLOS One** 学术编辑（SCI Q2，IF=2.6）
 - **Eng** 客座编辑（SCI Q2，IF=2.4） SI: Geological Storage and Engineering Application of Gases
 - **Engineered Science** 高级青年编委（中科院 1 区 TOP） 聘期：2025-2026

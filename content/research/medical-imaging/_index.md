@@ -1,26 +1,26 @@
 ---
-title: "AI‑assisted Medical Imaging & Diagnostics"
+title: "AI赋能-耦合、预测与优化"
 description: "AI pipelines for image enhancement and automated analysis in clinical applications."
 layout: "simple"
 showTableOfContents: false
 ---
 
 {{< lead >}}
-Building AI pipelines that enhance diagnostic imaging quality and enable reliable automated analysis for clinical use.
+围绕深海与深地复杂能源系统的不确定性、多场强耦合与跨尺度非线性特征，构建“物理约束 + 数据驱动 + 因果发现”融合的智能建模体系，实现地下系统状态演化的高精度预测与多目标优化调控。
+
+突破传统数值模拟对计算成本与参数依赖的限制，提升复杂耦合系统在长时间尺度与大空间尺度下的预测能力与决策效率。
 {{< /lead >}}
 
 ---
 
-### Overview
-Work includes unpaired learning for handheld fundus photography enhancement and joint learning systems for lesion detection using optical imaging features. Emphasis is on improving downstream diagnostic performance and robustness in real clinical scenarios.
+### 研究方向
+物理约束深度学习
+因果发现与机制识别
+智能预测模型构建
+多目标优化与智能调控
 
-### Key projects
-- Automated enhancement for handheld fundus photography via unpaired learning.
-- Joint learning for automated diagnosis of non‑melanoma skin cancer using optical attenuation features.
-
-### Representative publications
-- "Automated Enhanced Handheld Fundus Photography via Unpaired Learning" (IEEE Trans. Instrum. Meas., 2025)
-- "Automated Diagnosis of Non‑Melanoma Skin Cancer: A Joint Learning Approach Using Optical Attenuation Coefficients" (npj Digital Medicine, 2025)
+### 代表性成果
+- 
 
 ---
 
