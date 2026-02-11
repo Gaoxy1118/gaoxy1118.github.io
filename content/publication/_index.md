@@ -47,6 +47,21 @@ fullWidth: true
         <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
         <button class="btn-action" onclick="toggleBibtex('bib202601')"><i class="fas fa-quote-right"></i> BibTeX</button>
     {{< /publication_item >}}
+    {{< publication_item
+        title="Numerical modeling of CO<sub>2</sub> storage and gas recovery enhancement in low-permeability carbonate reservoirs via acid-fractured horizontal wells"
+        year="2026"
+        type="journal"
+        tags="ai,denoising"
+        search="self-supervised denoising"
+        authors="Jiangtao Hu, Shenglai Yang, Lufei Bi, <span class='author-me'>Xinyuan Gao</span>, Hui Deng, Ermeng Zhao*"
+        meta="<span><i class='fas fa-calendar'></i> 2026</span><span><i class='fas fa-book'></i> Fuel</span><span><i class='fas fa-star'></i> IF: 7.5</span><span><i class='fas fa-quote-right'></i> Citations: 1</span>"
+        bibtexId="bib202601"
+        bibtexKey="gu2026thz"
+        bibtexContent="@article{gao2023influence,title={Influence of reservoir spatial heterogeneity on a multicoupling process of CO2 geological storage},author={Gao, Xinyuan and Yang, Shenglai and Shen, Bin and Tian, Lerao and Li, Shuai and Zhang, Xing and Wang, Jiatong},journal={Energy \& Fuels},volume={37},number={19},pages={14991--15005},year={2023},publisher={ACS Publications}}"
+    >}}
+        <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+        <button class="btn-action" onclick="toggleBibtex('bib202601')"><i class="fas fa-quote-right"></i> BibTeX</button>
+    {{< /publication_item >}}
     <!-- ================================================================================== -->
     <!-- 2025 Papers -->
     <!-- ================================================================================== -->
@@ -91,14 +106,14 @@ fullWidth: true
         <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
     {{< /publication_item >}}
     {{< publication_item
-        title="GaMA: Stochastic Gaussian-masked Denoiser for Enhanced Fluorescence Microscopy of Subcellular Structures and Neural Dynamics"
+        title="Pore-scale simulation of multi-fluid flow transport dynamics for hydrogen geological storage in depleted gas reservoirs"
         year="2025"
         type="journal"
         tags="ai,microscopy"
         search="fluorescence microscopy denoising neural dynamics"
-        authors="<span class='author-me'>Yuanjie Gu</span>#, Yiqun Wang#, Zhenyao Zhao, Jun Lu, Lei Xu, Zhi Lu*, Biqin Dong*"
-        venue="Advanced Technology in Neuroscience"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Adv. Tech. Neurosci.</span><span><i class='fas fa-star'></i> IF: TBD</span><span><i class='fas fa-quote-right'></i> Citations: TBD</span>"
+        authors="<span class='author-me'>Xinyuan Gao</span>, Shenglai Yang, Lufei Bi, Yiqi Zhang, Jiangtao Hu, Mengyu Wang, Bin Shen, Ermeng Zhao*"
+        venue="Gondwana Research"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Gondwana Res.</span><span><i class='fas fa-star'></i> IF: 8.6</span><span><i class='fas fa-quote-right'></i> Citations: 8</span>"
         bibtexId="bib3"
         bibtexKey="gu2025gama"
         bibtexContent="@article{gu2025gama, title={GaMA: Stochastic Gaussian-masked Denoiser for Enhanced Fluorescence Microscopy of Subcellular Structures and Neural Dynamics}, author={Gu, Yuanjie and Wang, Yiqun and Zhao, Zhenyao and Lu, Jun and Xu, Lei and Lu, Zhi and Dong, Biqin}, journal={Advanced Technology in Neuroscience}, volume={3}, pages={1-5}, year={2025}}"
@@ -109,14 +124,15 @@ fullWidth: true
         <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
     {{< /publication_item >}}
     {{< publication_item
-        title="Automated Enhanced Handheld Fundus Photography via Unpaired Learning"
+        title="A technical review of CO<sub>2</sub> flooding sweep-characteristics research advance and sweep-extend technology"
         year="2025"
         type="journal"
         tags="ai,medical imaging"
+        award="ESI热点论文、连续四期高被引论文"
         search="fundus photography unpaired learning enhancement"
-        authors="<span class='author-me'>Yuanjie Gu</span>, Jiacheng Yang, Yiqun Wang, Mengwen Ye, Xin Li, Xiaoran Li, Na Li, Jun Zhang, Yitian Zhao, Zekuan Yu*, Biqin Dong*"
-        venue="IEEE Transactions on Instrumentation & Measurement"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> IEEE TIM</span><span><i class='fas fa-star'></i> IF: ~5.6</span><span><i class='fas fa-quote-right'></i> Citations: TBD</span>"
+        authors="Yiqi Zhang, Shenglai Yang*, Lufei Bi, <span class='author-me'>Xinyuan Gao</span>*, Bin Shen, Jiangtao Hu, Yun Luo, Yang Zhao, Hao Chen, Jing Li"
+        venue="Petroleum Science"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Pet. Sci.</span><span><i class='fas fa-star'></i> IF: 6.1</span><span><i class='fas fa-quote-right'></i> Citations: 52</span>"
         bibtexId="bib4"
         bibtexKey="gu2025automated"
         bibtexContent="@article{gu2025automated, title={Automated Enhanced Handheld Fundus Photography via Unpaired Learning}, author={Gu, Yuanjie and Yang, Jiacheng and Wang, Yiqun and Ye, Mengwen and Li, Xin and Li, Xiaoran and Li, Na and Zhang, Jun and Zhao, Yitian and Yu, Zekuan and Dong, Biqin}, journal={IEEE Transactions on Instrumentation and Measurement}, volume={74}, pages={1-12}, year={2025}}"
@@ -127,14 +143,13 @@ fullWidth: true
         <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
     {{< /publication_item >}}
     {{< publication_item
-        title="Automated Diagnosis of Non-Melanoma Skin Cancer: A Joint Learning Approach Using Optical Attenuation Coefficients"
+        title="Visual characterization, exergy and mechanism analysis of in-situ nonequilibrium dynamic phase-behavior of CO<sub>2</sub>-oil"
         year="2025"
         type="journal"
         tags="ai,medical"
         search="skin cancer diagnosis optical attenuation"
-        authors="Lei Zhang, Xiaoran Li, Wen Chen, <span class='author-me'>Yuanjie Gu</span>, Hao Wu*, Zhong Lu*, Biqin Dong*"
-        venue="npj Digital Medicine"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> npj Dig. Med.</span><span><i class='fas fa-star'></i> IF: ~15.0</span><span><i class='fas fa-quote-right'></i> Citations: TBD</span>"
+        authors="Yiqi Zhang, Shenglai Yang*, Yun Luo, Yuning Han, Lerao Tian, Qing Liu, <span class='author-me'>Xinyuan Gao</span>*, Bin Shen*, Renfeng Yang, Jing Li"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Energy</span><span><i class='fas fa-star'></i> IF: 9.4</span><span><i class='fas fa-quote-right'></i> Citations: 15</span>"
         bibtexId="bib13"
         bibtexKey="zhang2025automated"
         bibtexContent="@article{zhang2025automated, title={Automated Diagnosis of Non-Melanoma Skin Cancer: A Joint Learning Approach Using Optical Attenuation Coefficients}, author={Zhang, Lei and Li, Xiaoran and Chen, Wen and Gu, Yuanjie and Wu, Hao and Lu, Zhong and Dong, Biqin}, journal={npj Digital Medicine}, volume={8}, pages={232}, year={2025}}"
@@ -145,14 +160,50 @@ fullWidth: true
         <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
     {{< /publication_item >}}
     {{< publication_item
-        title="Fed-GFM-DG: A Privacy-Preserving Framework for Fundus Image Segmentation via Generative-based Feature Generalization and Mask-Guided Aggregation"
+        title="Evaluation of the influence of gas impurities on sweep characteristics of impure-CO2 flooding in offshore fossil hydrogen energy development at pore scale: Insight from LF-NMR"
         year="2025"
         type="journal"
         tags="ai,federated learning"
         search="federated learning fundus image segmentation"
-        authors="Jiacheng Yang, <span class='author-me'>Yuanjie Gu</span>, Shujian Gao, Wei Ren, Zekuan Yu*"
-        venue="Biomedical Signal Processing and Control"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> BSPC</span><span><i class='fas fa-star'></i> IF: ~5.1</span><span><i class='fas fa-quote-right'></i> Citations: TBD</span>"
+        authors="Yiqi Zhang, Shenglai Yang*, Yuning Han, Yun Luo, Qing Liu, Jiangtao Hu*, Bin Shen, Renfen Yan, Linjun Min, <span class='author-me'>Xinyuan Gao</span>*, Jing Li"
+        venue="Physics of Fluids"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Phys. Fluids</span><span><i class='fas fa-star'></i> IF: 4.3</span><span><i class='fas fa-quote-right'></i> Citations: 3</span>"
+        bibtexId="bib14"
+        bibtexKey="yang2025fedgfm"
+        bibtexContent="@article{yang2025fedgfm, title={Fed-GFM-DG: A Privacy-Preserving Framework for Fundus Image Segmentation via Generative-based Feature Generalization and Mask-Guided Aggregation}, author={Yang, Jiacheng and Gu, Yuanjie and Gao, Shujian and Ren, Wei and Yu, Zekuan}, journal={Biomedical Signal Processing and Control}, volume={106}, pages={1-14}, year={2025}}"
+    >}}
+        <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+        <a href="#" class="btn-action"><i class="fab fa-github"></i> Code</a>
+        <button class="btn-action" onclick="toggleBibtex('bib14')"><i class="fas fa-quote-right"></i> BibTeX</button>
+        <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
+    {{< /publication_item >}}
+    {{< publication_item
+        title="The Characteristics and Parameter Correlation of Pore–Throat Structure in Ultradeep Carbonate Gas Reservoir Based on Dual-Resolution Computed Tomography Scanning"
+        year="2025"
+        type="journal"
+        tags="ai,federated learning"
+        search="federated learning fundus image segmentation"
+        authors="Beidong Wang, Shenglai Yang*, Yulong Dang, <span class='author-me'>Xinyuan Gao</span>*, Jiangtao Hu*, Kun Yang, Shuai Zhao, Yiqi Zhang"
+        venue="Energy & Fuels"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Energy Fuels</span><span><i class='fas fa-star'></i> IF: 5.3</span><span><i class='fas fa-quote-right'></i> Citations: 0</span>"
+        bibtexId="bib14"
+        bibtexKey="yang2025fedgfm"
+        bibtexContent="@article{yang2025fedgfm, title={Fed-GFM-DG: A Privacy-Preserving Framework for Fundus Image Segmentation via Generative-based Feature Generalization and Mask-Guided Aggregation}, author={Yang, Jiacheng and Gu, Yuanjie and Gao, Shujian and Ren, Wei and Yu, Zekuan}, journal={Biomedical Signal Processing and Control}, volume={106}, pages={1-14}, year={2025}}"
+    >}}
+        <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+        <a href="#" class="btn-action"><i class="fab fa-github"></i> Code</a>
+        <button class="btn-action" onclick="toggleBibtex('bib14')"><i class="fas fa-quote-right"></i> BibTeX</button>
+        <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
+    {{< /publication_item >}}
+    {{< publication_item
+        title="Numerical simulation of CO<sub>2</sub> storage with enhanced gas recovery in depleted highly heterogeneous carbonate gas reservoir"
+        year="2025"
+        type="journal"
+        tags="ai,federated learning"
+        search="federated learning fundus image segmentation"
+        authors="Jiangtao Hu*, Shenglai Yang*, Haiwei Zuo, Yubo Liu, Bin Shen, <span class='author-me'>Xinyuan Gao</span>, Hui Deng"
+        venue="Physics of Fluids"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Phys. Fluids</span><span><i class='fas fa-star'></i> IF: 4.3</span><span><i class='fas fa-quote-right'></i> Citations: 3</span>"
         bibtexId="bib14"
         bibtexKey="yang2025fedgfm"
         bibtexContent="@article{yang2025fedgfm, title={Fed-GFM-DG: A Privacy-Preserving Framework for Fundus Image Segmentation via Generative-based Feature Generalization and Mask-Guided Aggregation}, author={Yang, Jiacheng and Gu, Yuanjie and Gao, Shujian and Ren, Wei and Yu, Zekuan}, journal={Biomedical Signal Processing and Control}, volume={106}, pages={1-14}, year={2025}}"
