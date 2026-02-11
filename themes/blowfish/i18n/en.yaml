@@ -82,6 +82,9 @@ sharing:
 
 shortcode:
   recent_articles: "Recent"
+  latest_news: "Latest news"
+  last_updated: "Last updated"
 
 recent:
   show_more: "Show More"
+

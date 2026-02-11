@@ -16,7 +16,7 @@ title = "Xinyuan's home"
   name = "Associate Professor, Xinyuan Gao"
   image = "/img/avatar.png"
   headline = "Institute of Ocean Engineering, Northeastern University"
-  bio = "The Institute of Ocean Engineering at Northeastern University was established on the occasion of the university's centennial celebration. Located at the Qinhuangdao, it aims to respond to the national strategy of building a maritime power and promote self-reliance in marine science and technology."
+  bio = "The Institute of Ocean Engineering at Northeastern University was established on the occasion of the university’s centennial celebration. Located at the Qinhuangdao, it aims to respond to the national strategy of building a maritime power and promote self-reliance in marine science and technology."
    links = [
      { google = "https://scholar.google.com/citations?user=Y_K9H_cAAAAJ&hl=zh-CN"},
      { github = "https://github.com/Gaoxy1118" },

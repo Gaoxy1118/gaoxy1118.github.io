@@ -81,6 +81,8 @@ sharing:
 
 shortcode:
   recent_articles: "最近的文章"
+  latest_news: "近期动态"
+  last_updated: "更新时间"
 
 recent:
   show_more: "显示更多"

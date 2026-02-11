@@ -1,11 +1,11 @@
 ---
-title: "Latest News"
+title: "近期动态"
 headless: true
 date: 2026-02-10
 ---
 
 ### 2026-01-12 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
-- 获得中国石油大学（北京）优秀博士论文 🎉
+- 获得中国石油大学（北京）优秀博士学位论文 🎉
 ### 2026-01-08 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
 - 4篇论文入选2026年第1期ESI高被引论文 🎉🎉🎉
 ### 2025-12-01 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
