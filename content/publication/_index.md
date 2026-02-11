@@ -160,14 +160,32 @@ fullWidth: true
         <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
     {{< /publication_item >}}
     {{< publication_item
-        title="Evaluation of the influence of gas impurities on sweep characteristics of impure-CO2 flooding in offshore fossil hydrogen energy development at pore scale: Insight from LF-NMR"
+        title="Evaluation of the influence of gas impurities on sweep characteristics of impure-CO<sub>2</sub> flooding in offshore fossil hydrogen energy development at pore scale: Insight from LF-NMR"
         year="2025"
         type="journal"
         tags="ai,federated learning"
         search="federated learning fundus image segmentation"
         authors="Yiqi Zhang, Shenglai Yang*, Yuning Han, Yun Luo, Qing Liu, Jiangtao Hu*, Bin Shen, Renfen Yan, Linjun Min, <span class='author-me'>Xinyuan Gao</span>*, Jing Li"
-        venue="Physics of Fluids"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Phys. Fluids</span><span><i class='fas fa-star'></i> IF: 4.3</span><span><i class='fas fa-quote-right'></i> Citations: 3</span>"
+        venue="International Journal of Hydrogen Energy"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Int. J. Hydrogen Energy</span><span><i class='fas fa-star'></i> IF: 8.3</span><span><i class='fas fa-quote-right'></i> Citations: 1</span>"
+        bibtexId="bib14"
+        bibtexKey="yang2025fedgfm"
+        bibtexContent="@article{yang2025fedgfm, title={Fed-GFM-DG: A Privacy-Preserving Framework for Fundus Image Segmentation via Generative-based Feature Generalization and Mask-Guided Aggregation}, author={Yang, Jiacheng and Gu, Yuanjie and Gao, Shujian and Ren, Wei and Yu, Zekuan}, journal={Biomedical Signal Processing and Control}, volume={106}, pages={1-14}, year={2025}}"
+    >}}
+        <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+        <a href="#" class="btn-action"><i class="fab fa-github"></i> Code</a>
+        <button class="btn-action" onclick="toggleBibtex('bib14')"><i class="fas fa-quote-right"></i> BibTeX</button>
+        <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
+    {{< /publication_item >}}
+    {{< publication_item
+        title="Exploration of the Migration, Miscibility, and Storage Characteristics of Impure CO<sub>2</sub> in Offshore Low-Permeability Oilfields Based on Online LF-NMR"
+        year="2025"
+        type="journal"
+        tags="ai,federated learning"
+        search="federated learning fundus image segmentation"
+        authors="Yiqi Zhang, Qing Liu, Shenglai Yang*, Lufei Bi, Shuai Zhao, Beidong Wang, Jiangtao Hu, Bin Shen, <span class='author-me'>Xinyuan Gao</span>*"
+        venue="Energy & Fuels"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Energy Fuels</span><span><i class='fas fa-star'></i> IF: 5.3</span><span><i class='fas fa-quote-right'></i> Citations: 0</span>"
         bibtexId="bib14"
         bibtexKey="yang2025fedgfm"
         bibtexContent="@article{yang2025fedgfm, title={Fed-GFM-DG: A Privacy-Preserving Framework for Fundus Image Segmentation via Generative-based Feature Generalization and Mask-Guided Aggregation}, author={Yang, Jiacheng and Gu, Yuanjie and Gao, Shujian and Ren, Wei and Yu, Zekuan}, journal={Biomedical Signal Processing and Control}, volume={106}, pages={1-14}, year={2025}}"
@@ -204,6 +222,24 @@ fullWidth: true
         authors="Jiangtao Hu*, Shenglai Yang*, Haiwei Zuo, Yubo Liu, Bin Shen, <span class='author-me'>Xinyuan Gao</span>, Hui Deng"
         venue="Physics of Fluids"
         meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i> Phys. Fluids</span><span><i class='fas fa-star'></i> IF: 4.3</span><span><i class='fas fa-quote-right'></i> Citations: 3</span>"
+        bibtexId="bib14"
+        bibtexKey="yang2025fedgfm"
+        bibtexContent="@article{yang2025fedgfm, title={Fed-GFM-DG: A Privacy-Preserving Framework for Fundus Image Segmentation via Generative-based Feature Generalization and Mask-Guided Aggregation}, author={Yang, Jiacheng and Gu, Yuanjie and Gao, Shujian and Ren, Wei and Yu, Zekuan}, journal={Biomedical Signal Processing and Control}, volume={106}, pages={1-14}, year={2025}}"
+    >}}
+        <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+        <a href="#" class="btn-action"><i class="fab fa-github"></i> Code</a>
+        <button class="btn-action" onclick="toggleBibtex('bib14')"><i class="fas fa-quote-right"></i> BibTeX</button>
+        <a href="#" class="btn-action"><i class="fas fa-external-link-alt"></i> arXiv</a>
+    {{< /publication_item >}}
+    {{< publication_item
+        title="A Physics-Informed Transformer Framework for Spatio-Temporal Modeling and Energy-Carbon Tradeoffs in CCUS-EOR"
+        year="2025"
+        type="Conference"
+        tags="ai,federated learning"
+        search="federated learning fundus image segmentation"
+        authors="Bin Shen, Shenglai Yang, <span class='author-me'>Xinyuan Gao</span>, Hongbo Zeng"
+        venue="SPE Annual Technical Conference and Exhibition"
+        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i>  ATCE</span><span><i class='fas fa-quote-right'></i> Citations: 0</span>"
         bibtexId="bib14"
         bibtexKey="yang2025fedgfm"
         bibtexContent="@article{yang2025fedgfm, title={Fed-GFM-DG: A Privacy-Preserving Framework for Fundus Image Segmentation via Generative-based Feature Generalization and Mask-Guided Aggregation}, author={Yang, Jiacheng and Gu, Yuanjie and Gao, Shujian and Ren, Wei and Yu, Zekuan}, journal={Biomedical Signal Processing and Control}, volume={106}, pages={1-14}, year={2025}}"
