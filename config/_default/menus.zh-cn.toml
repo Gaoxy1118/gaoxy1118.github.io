@@ -32,7 +32,12 @@ pageRef = "publication"
 weight = 30
 
 [[main]]
-name = "联系我"
+name = "招生"
+pageRef = "zhaosheng"
+weight = 35
+
+[[main]]
+name = "联系方式"
 pageRef = "contact"
 weight = 40
 
