@@ -9,7 +9,7 @@ showTableOfContents: false
 如有任何问题或需要，欢迎您随时联系，我会及时回复。
 {{< /lead >}}
 
-- Email: gaoxy_cup@163.com
+- Email: gaoxinyuan@neuq.edu.cn
 - 手机: 18810611710 (微信同号)
 
 

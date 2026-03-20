@@ -18,6 +18,7 @@ title = "高鑫远-主页"
   headline = "东北大学 海洋工程研究院"
   bio = "东北大学海洋工程研究院成立于百年校庆之际，位于秦皇岛分校，旨在响应国家海洋强国战略，推动海洋科技自立自强。"
    links = [
+     { neu = "https://hygcyjy.neuq.edu.cn/info/1100/1150.htm"},
      { google = "https://scholar.google.com/citations?user=Y_K9H_cAAAAJ&hl=zh-CN"},
      { github = "https://github.com/Gaoxy1118" },
      { orcid = "https://orcid.org/0009-0007-2831-3956" },

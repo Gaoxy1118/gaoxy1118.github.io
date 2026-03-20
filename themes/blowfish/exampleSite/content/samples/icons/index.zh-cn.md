@@ -128,3 +128,5 @@ Blowfish 内置了许多 [FontAwesome 6](https://fontawesome.com/icons) 中的�
 | xing                 | {{< icon xing >}}                 |
 | xmark                | {{< icon xmark >}}                |
 | youtube              | {{< icon youtube >}}              |
+| neu                  | {{< icon neu >}}                  |
+
