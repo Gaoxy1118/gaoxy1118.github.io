@@ -93,6 +93,7 @@ showReadingTime: false
 ---
 
 ### 📚 学术兼职
+- **Scientific Reports** 学术编辑（SCI Q1，IF=3.9）
 - **PLOS One** 学术编辑（SCI Q2，IF=2.6）
 - **Eng** 客座编辑（SCI Q2，IF=2.4） SI: Geological Storage and Engineering Application of Gases
 - **Engineered Science** 高级青年编委（中科院 1 区 TOP） 聘期：2025-2026
@@ -100,11 +101,13 @@ showReadingTime: false
 - **Resources Environment and Sustainability** 青年编委（中科院 1 区 TOP，IF=12.4）
 - **Progress in Reaction Kinetics and Mechanism** 青年编委（SCI Q2，IF=4.8）
 - **Fluid Dynamics & Materials Processing** 青年编委（SCI Q4，IF=0.7）
-- **Decarbon** 青年编委（EI, Scoups 收录, 重庆大学主办）
+- **Decarbon** 青年编委（ESCI, EI, Scoups 收录, 重庆大学主办）
 - **Clean Energy Science and Technology** 青年编委（Scoups 收录）
 - **GeoEnergy Communications** 青年编委（中煤科工主办，主编：康红普院士）
 - **cScience** 青年编委（北京科技大学主办，主编：毛新平院士）
+- **Energy & Environment Nexus** 青年编委（东南大学主办）
 - **Net Zero** 青年编委
+- **Carbon Neutral Systems** 青年编委
 - **Reservoir Science** 青年编委
 - **断块油气田青年编委**（中文核心，Scoups 收录）
 - **矿产保护与利用青年编委**（T2，中国科技核心）
