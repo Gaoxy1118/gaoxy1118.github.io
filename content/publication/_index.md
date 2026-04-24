@@ -45,7 +45,10 @@ fullWidth: true
         bibtexId="bib1"
         bibtexKey="gu2025enhancing"
         bibtexContent="@article{gu2025enhancing, title={Enhancing Biomedical Optical Volumetric Imaging via Self-Supervised Orthogonal Learning}, author={Gu, Yuanjie and Wang, Yiqun and Xuan, Ang and Wang, Jianping and Wang, Linyi and Zhang, Lei and Li, Xiaoran and Wu, Yao and Zhang, Jun and Lu, Zhi and Dong, Biqin}, journal={Science Advances}, year={2025}}"
-    >}}
+   >}}
+        <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+        <button class="btn-action" onclick="toggleBibtex('bib202601')"><i class="fas fa-quote-right"></i> BibTeX</button>
+    {{< /publication_item >}}
     {{< publication_item
         title="注CO<sub>2</sub>提高天然气采收率中CO<sub>2</sub>-CH<sub>4</sub>过渡带演化规律研究"
         year="2026"
