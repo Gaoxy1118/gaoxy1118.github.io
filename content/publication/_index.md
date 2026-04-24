@@ -14,10 +14,10 @@ fullWidth: true
 
 <!-- 统计栏 (数据需根据实际情况微调) -->
 {{< publications_stats 
-    total="31" 
+    total="32" 
     first="15" 
-    impact="176" 
-    citations="504" 
+    impact="185.4" 
+    citations="555" 
 >}}
 
 <!-- 搜索和筛选 -->
@@ -41,7 +41,7 @@ fullWidth: true
         authors="<span class='author-me'>Xinyuan Gao</span>*, Shenglai Yang, Yiqi Zhang*, Baiyan He, Mengyu Wang, Jiangtao Hu, Bin Shen, Ermeng Zhao"
         venue="Energy"
         venueStyle="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;"
-        meta="<span><i class='fas fa-calendar'></i> 2025</span><span><i class='fas fa-book'></i>Energy</span><span><i class='fas fa-star'></i> IF: 9.4</span><span><i class='fas fa-quote-right'></i> Citations: 0</span>"
+        meta="<span><i class='fas fa-calendar'></i> 2026</span><span><i class='fas fa-book'></i>Energy</span><span><i class='fas fa-star'></i> IF: 9.4</span><span><i class='fas fa-quote-right'></i> Citations: 0</span>"
         bibtexId="bib1"
         bibtexKey="gu2025enhancing"
         bibtexContent="@article{gu2025enhancing, title={Enhancing Biomedical Optical Volumetric Imaging via Self-Supervised Orthogonal Learning}, author={Gu, Yuanjie and Wang, Yiqun and Xuan, Ang and Wang, Jianping and Wang, Linyi and Zhang, Lei and Li, Xiaoran and Wu, Yao and Zhang, Jun and Lu, Zhi and Dong, Biqin}, journal={Science Advances}, year={2025}}"
