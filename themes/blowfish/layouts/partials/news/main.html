@@ -103,4 +103,95 @@
   .github-feed-container .prose > *:last-child {
     margin-bottom: 0;
   }
+
+  .github-feed-container .news-older-group {
+    overflow: hidden;
+    transition: max-height 0.28s ease, opacity 0.28s ease;
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .github-feed-container .news-older-group.visible {
+    max-height: 2000px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .github-feed-container .news-collapse-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.4rem 0.75rem;
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 9999px;
+    color: #2563eb;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .github-feed-container .news-collapse-button:hover {
+    background-color: #dbeafe;
+  }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const article = document.querySelector('.github-feed-container article.prose');
+    if (!article) return;
+
+    const nodes = Array.from(article.children);
+    const groups = [];
+    let currentGroup = null;
+
+    nodes.forEach(node => {
+      if (node.tagName === 'H3') {
+        currentGroup = { header: node.cloneNode(true), body: [] };
+        groups.push(currentGroup);
+      } else if (currentGroup) {
+        currentGroup.body.push(node.cloneNode(true));
+      }
+    });
+
+    if (groups.length <= 3) return;
+
+    article.innerHTML = '';
+
+    groups.forEach((group, index) => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'news-item mb-4';
+      wrapper.appendChild(group.header);
+      group.body.forEach(node => wrapper.appendChild(node));
+
+      if (index < 3) {
+        article.appendChild(wrapper);
+        return;
+      }
+
+      let olderGroup = document.querySelector('.news-older-group');
+      if (!olderGroup) {
+        olderGroup = document.createElement('div');
+        olderGroup.className = 'news-older-group';
+        article.appendChild(olderGroup);
+      }
+      olderGroup.appendChild(wrapper);
+    });
+
+    const toggleButton = document.createElement('button');
+    toggleButton.type = 'button';
+    toggleButton.className = 'news-collapse-button mt-2';
+    toggleButton.textContent = '{{ i18n "shortcode.expand_history" }}';
+
+    const olderGroup = article.querySelector('.news-older-group');
+    if (!olderGroup) return;
+
+    toggleButton.addEventListener('click', function () {
+      const isVisible = olderGroup.classList.toggle('visible');
+      toggleButton.textContent = isVisible ? '{{ i18n "shortcode.collapse_history" }}' : '{{ i18n "shortcode.expand_history" }}';
+    });
+
+    article.insertBefore(toggleButton, olderGroup);
+  });
+</script>

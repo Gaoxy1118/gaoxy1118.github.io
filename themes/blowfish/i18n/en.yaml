@@ -84,6 +84,8 @@ shortcode:
   recent_articles: "Recent"
   latest_news: "Latest news"
   last_updated: "Last updated"
+  expand_history: "Show history"
+  collapse_history: "Hide history"
 
 recent:
   show_more: "Show More"

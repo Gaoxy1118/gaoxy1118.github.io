@@ -83,6 +83,8 @@ shortcode:
   recent_articles: "最近的文章"
   latest_news: "近期动态"
   last_updated: "更新时间"
+  expand_history: "展开历史动态"
+  collapse_history: "收起历史动态"
 
 recent:
   show_more: "显示更多"
