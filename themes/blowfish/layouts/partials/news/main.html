@@ -113,6 +113,7 @@
   }
 
   .github-feed-container .news-older-group.visible {
+    overflow: visible;
     max-height: 2000px;
     opacity: 1;
     pointer-events: auto;
@@ -189,7 +190,11 @@
 
     toggleButton.addEventListener('click', function () {
       const isVisible = olderGroup.classList.toggle('visible');
-      toggleButton.textContent = isVisible ? '{{ i18n "shortcode.collapse_history" }}' : '{{ i18n "shortcode.expand_history" }}';
+      if (isVisible) {
+        toggleButton.style.display = 'none';
+      } else {
+        toggleButton.textContent = '{{ i18n "shortcode.expand_history" }}';
+      }
     });
 
     article.insertBefore(toggleButton, olderGroup);
