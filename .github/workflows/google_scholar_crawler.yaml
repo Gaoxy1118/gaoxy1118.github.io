@@ -1,30 +1,41 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        persist-credentials: true
+    - name: Install dependencies
       run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
+        sudo apt-get update
+        sudo apt-get install -y python3-setuptools chromium-browser chromium-chromedriver
+        python3 -m pip install --upgrade pip
+    - name: Run crawler
       run: |
         cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
+        python3 -m pip install -r requirements.txt
         python3 main.py
-        cd ./results
-        git init
+    - name: Commit generated data
+      run: |
         git config --local user.email "gaoxy_cup@163.com"
         git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: Y_K9H_cAAAAJ
+        if [[ -n $(git status --porcelain data/gs_data.json data/gs_data_shieldsio.json) ]]; then
+          git add data/gs_data.json data/gs_data_shieldsio.json
+          git commit -m "Update Google Scholar citation data"
+          git push origin HEAD:main
+        else
+          echo "No changes to commit."
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      shell: bash
+    env:
+      GOOGLE_SCHOLAR_ID: Y_K9H_cAAAAJ

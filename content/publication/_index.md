@@ -27,6 +27,14 @@ fullWidth: true
 > "*" 代表通讯作者
 
 
+<!-- 快速使用说明：只需输入 Google Scholar 论文 ID 和必要辅助字段 -->
+<!--
+{{< publication_item_id id="ABC123" tags="ai,selected" award="ESI 高被引" >}}
+    <a href="#" class="btn-action btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+    <button class="btn-action" onclick="toggleBibtex('bib-ABC123')"><i class="fas fa-quote-right"></i> BibTeX</button>
+{{< /publication_item_id >}}
+-->
+
 <!-- 论文列表 -->
 <div class="pub-list" id="publicationList">
     <!-- ================================================================================== -->

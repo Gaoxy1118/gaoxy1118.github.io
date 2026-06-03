@@ -1,0 +1,94 @@
+{{ $id := .Get "id" | default "" }}
+{{ if not $id }}
+<article class="pub-card">
+    <div class="pub-meta"><strong>Publication ID missing.</strong> 请为 publication_item_id 提供 id 参数。</div>
+</article>
+{{ else }}
+{{ $gs := .Site.Data.gs_data }}
+{{ if not $gs }}
+<article class="pub-card">
+    <div class="pub-meta"><strong>GS 数据未找到。</strong> 请运行爬虫生成 data/gs_data.json。</div>
+</article>
+{{ else }}
+{{ $pub := index $gs.publications $id }}
+{{ if not $pub }}
+<article class="pub-card">
+    <div class="pub-meta"><strong>未找到出版物：</strong> Google Scholar ID {{ $id }}。</div>
+</article>
+{{ else }}
+{{ $title := .Get "title" | default (default $pub.bib.title $pub.title) }}
+{{ $authors := .Get "authors" | default (default $pub.bib.author $pub.author) }}
+{{ $venue := .Get "venue" | default (or $pub.bib.venue $pub.bib.journal $pub.bib.booktitle $pub.bib.publisher) }}
+{{ $year := .Get "year" | default (default $pub.bib.pub_year $pub.year) }}
+{{ $cited := default 0 (default $pub.num_citations $pub.citedby) }}
+{{ $meta := .Get "meta" | default (printf "<span><i class='fas fa-calendar'></i> %s</span><span><i class='fas fa-book'></i> %s</span><span><i class='fas fa-quote-right'></i> Citations: %d</span>" $year $venue $cited) }}
+{{ $type := .Get "type" | default "journal" }}
+{{ $tags := .Get "tags" }}
+{{ $award := .Get "award" }}
+{{ $search := .Get "search" | default (printf "%s %s %s" $title $authors $venue) }}
+{{ $venueStyle := .Get "venueStyle" }}
+{{ $bibtexId := .Get "bibtexId" | default (printf "bib-%s" $id) }}
+{{ $bibtex := .Get "bibtexContent" }}
+{{ $link := .Get "link" }}
+{{ if and (not $link) $pub.bib.url }}{{ $link = $pub.bib.url }}{{ end }}
+
+<article class="pub-card" 
+         data-year="{{ $year }}" 
+         data-type="{{ $type }}" 
+         data-tags="{{ $tags }}" 
+         data-search="{{ $search | lower }}"
+         data-authors="{{ $authors | lower }}"
+         data-venue="{{ $venue | lower }}"
+         data-title="{{ $title | lower }}">
+    <div class="pub-header">
+        <h3 class="pub-title">{{ $title | safeHTML }}</h3>
+        <div class="pub-type-tag">
+            {{ if $venueStyle }}
+                <span class="meta-tag" style="{{ $venueStyle | safeCSS }}">{{ $venue | safeHTML }}</span>
+            {{ else }}
+                <span class="meta-tag">{{ $type | upper }}</span>
+            {{ end }}
+        </div>
+    </div>
+
+    {{ if $award }}
+    <div class="award-badge">
+        <i class="fas fa-trophy"></i> {{ $award }}
+    </div>
+    {{ end }}
+
+    <div class="pub-authors">
+        {{ $authors | safeHTML }}
+    </div>
+
+    <div class="pub-venue">
+        {{ $venue | safeHTML }}
+    </div>
+
+    <div class="pub-meta">
+        {{ $meta | safeHTML }}
+    </div>
+
+    <div class="pub-actions">
+        {{ if $link }}
+        <a href="{{ $link | safeURL }}" class="btn-action btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> View</a>
+        {{ end }}
+        {{ .Inner | safeHTML }}
+    </div>
+
+    {{ if $bibtex }}
+    <div id="{{ $bibtexId }}" class="bibtex-container" style="display: none;">
+        <div class="code-header">
+            <span class="bibtex-label">BibTeX</span>
+            <button class="copy-btn" onclick="copyBibtex('{{ $bibtexId }}')">
+                <i class="fas fa-copy"></i> Copy
+            </button>
+        </div>
+        <pre class="code-content">{{ $bibtex | safeHTML }}</pre>
+        <div class="copy-feedback">Copied to clipboard!</div>
+    </div>
+    {{ end }}
+</article>
+{{ end }}
+{{ end }}
+{{ end }}

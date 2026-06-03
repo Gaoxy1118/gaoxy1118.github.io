@@ -13,7 +13,7 @@
 
   {{ if $newsPage }}
     <div class="github-feed-container relative p-6 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 shadow-sm max-h-[600px] overflow-y-auto">
-      <article class="prose dark:prose-invert max-w-none">
+      <article class="prose dark:prose-invert max-w-none" style="max-height:17rem;overflow:hidden;transition:max-height .12s ease">
         {{ $newsPage.Content }}
       </article>
     </div>
@@ -156,7 +156,11 @@
       }
     });
 
-    if (groups.length <= 3) return;
+    if (groups.length <= 3) {
+      article.style.maxHeight = 'none';
+      article.style.overflow = 'visible';
+      return;
+    }
 
     article.innerHTML = '';
 
@@ -186,7 +190,11 @@
     toggleButton.textContent = '{{ i18n "shortcode.expand_history" }}';
 
     const olderGroup = article.querySelector('.news-older-group');
-    if (!olderGroup) return;
+    if (!olderGroup) {
+      article.style.maxHeight = 'none';
+      article.style.overflow = 'visible';
+      return;
+    }
 
     toggleButton.addEventListener('click', function () {
       const isVisible = olderGroup.classList.toggle('visible');
@@ -198,5 +206,9 @@
     });
 
     article.insertBefore(toggleButton, olderGroup);
+
+    // 移除截断并显示已由 JS 处理过的内容
+    article.style.maxHeight = 'none';
+    article.style.overflow = 'visible';
   });
 </script>

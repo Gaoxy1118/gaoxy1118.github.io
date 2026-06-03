@@ -1,14 +1,11 @@
 {{ $id := delimit (slice "gitlab" (partial "functions/uid.html" .)) "-" }}
 {{- $gitlabURL := print (default "https://gitlab.com/" (.Get "baseURL")) "api/v4/projects/" (.Get "projectID") -}}
 {{- $gitLabData := dict -}}
-{{- with try (resources.GetRemote $gitlabURL) -}}
-  {{- with .Err -}}
-    {{- warnf "gitlab shortcode: failed to fetch remote resource from %q: %s" $gitlabURL $.Position -}}
-  {{- else with .Value -}}
-    {{- $gitLabData = . | transform.Unmarshal -}}
-  {{- else -}}
-    {{- warnf "gitlab shortcode: unable to get remote resource from %q: %s" $gitlabURL $.Position -}}
-  {{- end -}}
+{{- $gitlabResource := resources.GetRemote $gitlabURL -}}
+{{- if not $gitlabResource -}}
+  {{- warnf "gitlab shortcode: failed to fetch remote resource from %q" $gitlabURL -}}
+{{- else -}}
+  {{- $gitLabData = $gitlabResource | transform.Unmarshal -}}
 {{- end -}}
 
 {{- with $gitLabData -}}
