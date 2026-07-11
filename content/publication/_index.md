@@ -17,7 +17,7 @@ fullWidth: true
     total="32" 
     first="15" 
     impact="185.4" 
-    citations="555" 
+    citations="643" 
 >}}
 
 <!-- 搜索和筛选 -->
