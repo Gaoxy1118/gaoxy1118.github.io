@@ -1,9 +1,26 @@
 ---
 title: "近期动态"
 headless: true
-date: 2026-02-10
+date: 2026-07-11
 ---
-
+### 2026-07-10 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
+- 受邀担任<a href="https://hysy.shopc.com.cn/">*海洋石油*</a>青年编委 🎉
+### 2026-07-09 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
+- 4篇论文入选2026年第4期ESI高被引论文 🎉🎉🎉
+### 2026-06-26 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
+- 受邀担任<a href="https://www.sciepublish.com/journals/mer/">*Marine Energy Research*</a>青年编委 🎉
+### 2026-06-11 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
+- 受邀担任<a href="http://www.energyscience.org.au/">*Energy Science*</a>青年编委 🎉
+### 2026-05-29 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
+- 受邀担任<a href="https://www.hddz.cgsnjzx.cn/">*华东地质*</a>青年编委 🎉
+### 2026-05-14 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
+- 4篇论文入选2026年第3期ESI高被引论文 🎉🎉🎉
+### 2026-04-16 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">学术兼职</span>
+- 受邀担任<a href="https://link.springer.com/journal/44438">*Carbon Neutral Systems*</a>青年编委 🎉
+### 2026-04-15 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">论文发表</span>
+- <a href="https://doi.org/10.1016/j.energy.2026.141065">论文</a>发表于能源顶刊*Energy* 🎉
+### 2026-03-12 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
+- 4篇论文入选2026年第2期ESI高被引论文 🎉🎉🎉
 ### 2026-01-12 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
 - 获得中国石油大学（北京）优秀博士学位论文 🎉
 ### 2026-01-08 <span class="ml-2 px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700 text-xs border border-blue-200">荣誉奖励</span>
