@@ -17,10 +17,10 @@ showTableOfContents: false
   
   **毕业去向**：中海油天化院
 - **2022级硕士**田乐娆
-  **在读成果：**
-
-  以第三作者在Energy发表论文，在International Journal of Heat and Mass Transfer、Energy＆fuels发表论文；获国家奖学金，中国石油工程设计大赛全国三等奖
-  毕业去向：中石化西南局
+  
+  **在读成果**：以第三作者在Energy发表论文，在International Journal of Heat and Mass Transfer、Energy＆fuels发表论文；获国家奖学金，中国石油工程设计大赛全国三等奖
+  
+  **毕业去向**：中石化西南局
 
 
 
