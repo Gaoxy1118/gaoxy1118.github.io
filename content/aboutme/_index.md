@@ -51,7 +51,7 @@ showReadingTime: false
 ---
 
 ### 🧠 研究兴趣
-- **深海、深地工程:** CO2强化油气开采，H2/CO2/CH4地下储存，地热.
+- **深海、深地资源工程:** CO2强化油气开采，H2/CO2/CH4地下储存，地热.
 - **多尺度、多域、多场耦合建模与模拟:** 复杂孔隙建模与模拟，大尺度系统多场耦合.
 - **AI赋能-耦合、预测与优化:** 基于深度学习、因果发现、物理约束的预测和优化，智能多场耦合.
 
@@ -61,6 +61,8 @@ showReadingTime: false
 - **主持** 
 
   **国家级**, 中国科学技术协会, **首届中国科协青年人才托举工程博士生专项**
+  
+
 - **参与**  
 
   **国家级**, 自然科学基金委, 国家自然科学基金联合基金重点项目**海洋CO2地质封存体动态演化及强化封存机理**
@@ -72,13 +74,15 @@ showReadingTime: false
 ### 📜 专利
 - **发明专利**
 
-  非常规油藏采收率提高方法及系统, 2025
+  非常规油藏采收率提高方法及系统, 2025，授权
 
-  一种超临界CO2一体化开发中低成熟页岩油装置, 2025
+  一种超临界CO2一体化开发中低成熟页岩油装置, 2025，授权
 
-  测定驱油泡沫体系在油藏中流变性变化的测量装置及方法, 2025
+  测定驱油泡沫体系在油藏中流变性变化的测量装置及方法, 2025，授权
 
-  用于提高岩心利用率的装置、使用方法及其指导方法, 2025
+  用于提高岩心利用率的装置、使用方法及其指导方法, 2025，授权
+
+  油气分离装置、岩心驱替实验系统及油气相态实验系统，2026，授权
 
 ---
 
@@ -89,15 +93,19 @@ showReadingTime: false
 - **中国科协党校**“领航计划”, 2025
 - 挑战杯北京市**特等奖**, 2025
 - 中国石油工程设计大赛**全国一等奖**, 2022
+- 中国石油工程设计大赛**全国三等奖**, 2021
+- Petroleum Science优秀审稿人, 2026
 
 ---
 
 ### 📚 学术兼职
-- **Scientific Reports** 学术编辑（SCI Q1，IF=3.9）
-- **PLOS One** 学术编辑（SCI Q2，IF=2.6）
-- **Eng** 客座编辑（SCI Q2，IF=2.4） SI: Geological Storage and Engineering Application of Gases
+- **Scientific Reports** 学术编辑（SCI Q1，IF=4.9）
+- **PLOS One** 学术编辑（SCI Q2，IF=2.8）
+- **Eng** 客座编辑（SCI Q1，IF=3.5） SI: Geological Storage and Engineering Application of Gases
+- **Energies** 客座编辑（SCI Q3，IF=3.9） SI: Carbon Capture and Low-Carbon Energy System:Development, Modeling and Al Empowerment
 - **Engineered Science** 高级青年编委（中科院 1 区 TOP） 聘期：2025-2026
-- **Exploration** 科学编辑（SCI Q1, IF=22.5）
+- **Exploration** 科学编辑（SCI Q1, IF=30.4）
+- **The Innovation Energy** 青年编委
 - **Resources Environment and Sustainability** 青年编委（中科院 1 区 TOP，IF=12.4）
 - **Progress in Reaction Kinetics and Mechanism** 青年编委（SCI Q2，IF=4.8）
 - **Fluid Dynamics & Materials Processing** 青年编委（SCI Q4，IF=0.7）
@@ -106,9 +114,13 @@ showReadingTime: false
 - **GeoEnergy Communications** 青年编委（中煤科工主办，主编：康红普院士）
 - **cScience** 青年编委（北京科技大学主办，主编：毛新平院士）
 - **Energy & Environment Nexus** 青年编委（东南大学主办）
+- **Marine Energy Research** 青年编委
+- **Carbon Footprints** 青年编委
 - **Net Zero** 青年编委
+- **Engin Future** 青年编委
 - **Carbon Neutral Systems** 青年编委
 - **Reservoir Science** 青年编委
-- **断块油气田青年编委**（中文核心，Scoups 收录）
-- **矿产保护与利用青年编委**（T2，中国科技核心）
-- Renewable & sustainable energy reviews (IF=16.3)、Applied energy (IF=11)、Energy (IF=9.4) 等 30 余本 SCI 期刊的审稿人。
+- **断块油气田**青年编委（中文核心，Scoups 收录）
+- **海洋石油**青年编委（中国科技核心）
+- **矿产保护与利用**青年编委（T2，中国科技核心）
+- Renewable & sustainable energy reviews (IF=18)、Applied energy (IF=12.2)、Energy (IF=10.1) 等 30 余本 SCI 期刊的审稿人。
